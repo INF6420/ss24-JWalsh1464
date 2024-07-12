@@ -4,42 +4,64 @@
     <meta charset="UTF-8">
     <meta name="Description" content="INF 7420 Project">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Jean Walsh Developmental Language Norms - Portfolio</title>
+    <title>Jean Walsh, M.A., SLP-CCC Developmental Language Norms - Portfolio</title>
     <link rel= "stylesheet" href="style.css">
 </head>
 
 <body>
     <header>
         <nav class="main-menu">
-            <a href="index.html" class="site-name">Jean Walsh Developmental Language Norms<img src="images/children.jpg" alt="Jean Walsh Language Developmental Norms Logo"></a>
+            <a href="index.html" class="site-name"><b>Jean Walsh, M.A., CCC-SLP Developmental Language Norms</b><img src="images/children.jpg" alt="Jean Walsh Language Developmental Norms Logo"></a>
             <input class="menu-btn" type="checkbox" id="menu-btn" />
             <label class="menu-icon" for="menu-btn"><span class="navicon" aria-label= "Toggle for menu"></span></label>
             <ul class="main-nav">
-                <li><a href="Norms.html"> Newborn to 12 Months</a></li>
-                <li><a href="Help.html">How can I help</a></li>
-                <li><a href="Contact.html">Contact</a></li>
+                <li><a href="Norms.html"> <b>Newborn to 12 Months</b></a></li>
+                <li><a href="Help.html"><b>How can I help</b></a></li>
+                <li><a href="Contact.html"><b>Contact</b></a></li>
             </ul>
         </nav>   
     </header>
     <main>
-       
-    </main>
-    
-        <div class="contact-asha">
-        <h2><i>FINDINGS</i></h2>
-        <p>Research matters <a href="https://www.asha.org/research/">Learn more about research</a></p>
-
-    <br>
-     
-            <h2><i>REACH US:</i></h2>
-                <address>200 Research Blvd., Rockville, MD 20850</address>
-                <tel>800-638-8255</tel>
-             <p>Send an email to The National Office  <a href="https://www.asha.org/form/contact-asha">Reach ASHA</a></p>
-        
-        <br/>
-        
-             <h2><i>INFORMATION IS AVAILABLE FOR:</i></h2>
-             <p>Parents and caregivers <a href="https://www.asha.org/public">Information</a></p> 
-        
+        <form action="https://formspree.io/f/mjkbvprg" method="POST" class="validate">
+            <div>
+                <label for="name" >Name</label>
+                <input id="name" type="text" name="name" class="form-input">
             </div>
-            </body></html>
+            
+            <div>
+                <label for="email">Email</label>
+                <input id="email" type="email" name="_replyto" class="form-input" required>
+            </div>
+            
+            <div>
+                <label for="message">Message</label>
+                <textarea id="message" name="message" class="form-input" required></textarea>
+            </div>
+            
+            <div>
+                <input type="submit" value="Send">
+            </div>
+        </form>
+    </main>
+    <footer>
+        <div class="contact-asha">
+            <h2><i>FINDINGS</i></h2>
+            <p>Research matters <a href="https://www.asha.org/research/">Learn more about research</a></p>
+            
+            <br>
+            
+            <h2><i>REACH US:</i></h2>
+            <address>200 Research Blvd., Rockville, MD 20850</address>
+            <tel>800-638-8255</tel>
+            <p>Send an email to The National Office  <a href="https://www.asha.org/form/contact-asha">Reach ASHA</a></p>
+            
+            <br/>
+            
+            <h2><i>INFORMATION IS AVAILABLE FOR:</i></h2>
+            <p>Parents and caregivers <a href="https://www.asha.org/public">Information</a></p> 
+            
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
